@@ -1,0 +1,33 @@
+$navigation-bar: "navigation-bar";
+
+.#{$navigation-bar}__container {
+  background-color: #FCB5B5;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 9rem;
+}
+
+.#{$navigation-bar}__home-button {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  img {
+    width: 70px;
+    height: auto;
+  }
+}
+
+.#{$navigation-bar}__page-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.#{$navigation-bar}__page {
+  text-decoration: none;
+  color: #916953;
+  display: inline;
+  font-size: 18px;
+  justify-content: center;
+}

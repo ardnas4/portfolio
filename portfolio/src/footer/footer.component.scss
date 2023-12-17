@@ -1,0 +1,11 @@
+$footer: "footer";
+
+.#{$footer}__container {
+  padding: 1rem 9rem;
+  box-sizing: border-box;
+  background-color: #CF8E80;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #916953;
+}
