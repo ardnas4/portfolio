@@ -3,4 +3,47 @@ $hero-section: "hero-section";
 .#{hero-section}__container {
   margin: 0 9rem;
   padding: 4rem 0;
+  color: #785542;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.#{hero-section}__information {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  .hello-text {
+    font-size: 45px;
+  }
+
+  .job-title {
+    font-size: 30px;
+  }
+
+  .contact-me {
+    align-self: flex-start;
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border: 2px solid #785542;
+    background-color: #fff;
+    color: #785542;
+    cursor: pointer;
+  }
+
+  .contact-me:hover {
+    background-color: #785542;
+    color: #fff;
+    transition: 0.3s;
+  }
+}
+
+.#{hero-section}__headshot {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  border: 2px solid #785542;
 }

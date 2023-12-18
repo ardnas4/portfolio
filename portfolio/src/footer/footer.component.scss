@@ -1,11 +1,27 @@
 $footer: "footer";
 
 .#{$footer}__container {
-  padding: 1rem 9rem;
+  padding: 2rem 9rem;
   box-sizing: border-box;
-  background-color: #CF8E80;
-  position: fixed;
+  background-color: #cf8585;
+
   bottom: 0;
   width: 100%;
-  color: #916953;
+  color: #785542;
 }
+
+.#{$footer}__link-container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 2rem;
+
+  .image-format {
+    display: flex;
+    flex-wrap: wrap;
+    width: 5%;
+    height: 5%;
+  }
+}
+
+
