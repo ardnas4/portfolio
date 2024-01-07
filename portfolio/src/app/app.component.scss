@@ -1,6 +1,18 @@
-.app__container {
+.app-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  min-height: 100vh;
+}
+
+hero-section {
+  flex: 1;
+  border-bottom: 1px solid #785542;
+  border-top: 1px solid #785542;
+}
+
+page-footer {
+  box-sizing: border-box;
+  bottom: 0;
+  width: 100%;
 }
 
