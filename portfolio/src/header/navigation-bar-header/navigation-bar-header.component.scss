@@ -1,7 +1,7 @@
 $navigation-bar: "navigation-bar";
 
 .#{$navigation-bar}__container {
-  background-color: #FCB5B5;
+  background-color: #794771;
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 9rem;
@@ -27,7 +27,7 @@ $navigation-bar: "navigation-bar";
 .#{$navigation-bar}__page {
   display: inline-block;
   text-decoration: none;
-  color: #785542;
+  color: #ffffff;
   display: inline;
   font-size: 1rem;
   justify-content: center;
@@ -37,12 +37,13 @@ $navigation-bar: "navigation-bar";
 }
 
 .#{$navigation-bar}__page:hover {
-  border: 1px solid #785542;
-  background-color: #ffd3d3;
+  border: 1px solid #ffffff;
+  background-color: #ffd5ee;
+  color: #b46294;
   transition: 0.3s;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1100px) {
   .#{$navigation-bar}__container {
     gap: 1rem;
     padding: 1rem;

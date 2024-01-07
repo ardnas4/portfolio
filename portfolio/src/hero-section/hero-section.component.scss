@@ -3,7 +3,7 @@ $hero-section: "hero-section";
 .#{hero-section}__container {
   padding: 3rem 1rem;
   margin: 0 9rem;
-  color: #785542;
+  color: #5a2952;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,6 +22,7 @@ $hero-section: "hero-section";
 
   .job-title {
     font-size: 30px;
+    color: #b46294;
   }
 
   .hello-text-secondary {
@@ -33,10 +34,10 @@ $hero-section: "hero-section";
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  border: 2px solid #785542;
+  border: 3px solid #5a2952;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .#{hero-section}__container {
     flex-direction: column;
     justify-content: center;
